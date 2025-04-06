@@ -48,9 +48,6 @@ export default function LandingScreen() {
       </TouchableOpacity>
       <Text style={styles.title}>{translations[currentLanguage].title}</Text>
       <Text style={styles.subtitle}>{translations[currentLanguage].subtitle}</Text>
-
-      {/* <Text style={styles.title}>HealCure</Text>
-      <Text style={styles.subtitle}>AI-Powered Rural Healthcare</Text> */}
       
       <Link href="/(tabs)/home" asChild>
         <Pressable style={styles.button}>
